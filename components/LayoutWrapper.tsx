@@ -25,12 +25,12 @@ const LayoutWrapper = ({ children }: Props) => {
             </div>
           </Link>
           <div className="flex items-center text-base leading-5">
-            <div className="hidden rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-900/90 dark:text-zinc-200 dark:ring-white/10 sm:block">
+            <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="relative inline-block rounded-lg px-3 py-2  text-sm text-gray-700  transition-all delay-150 hover:text-gray-900 dark:hover:text-gray-900"
+                  className="link-underline dark:link-underline-black rounded-xl p-1 font-medium text-gray-900 hover:bg-gray-400/10 dark:text-gray-100 sm:p-4"
                 >
                   {link.title}
                 </Link>
