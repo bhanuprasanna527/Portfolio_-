@@ -60,7 +60,6 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
                 key={d.company}
                 title={d.title}
                 company={d.company}
-                location={d.location}
                 range={d.range}
                 url={d.url}
                 text1={d.text1}
@@ -81,7 +80,6 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
                 key={d.company}
                 title={d.title}
                 company={d.company}
-                location={d.location}
                 range={d.range}
                 url={d.url}
                 text1={d.text1}

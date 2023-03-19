@@ -31,11 +31,12 @@ export default function Blog() {
           Resources
         </h1>
         <p className="mb-4 text-gray-600 dark:text-gray-400">
-          Helpful
+          Helpful&nbsp;&nbsp;
           <span className="rounded-md border bg-gray-100 px-1 py-0.5 tracking-tight dark:bg-gray-700 dark:text-gray-300">
             websites
           </span>
-          that I've been using which have helped me in developing applications and much more. 🔥
+          &nbsp;&nbsp;that I've been using which have helped me in developing applications and much
+          more. 🔥
         </p>
       </div>
 
