@@ -3,7 +3,7 @@ const siteMetadata = {
   author: 'Bhanu Prasanna',
   headerTitle: 'Bhanu Prasanna',
   description:
-    'Reuben is a Data Scientist by training and Full-Stack Developer by passion. In his early teens, while pursuing his obsession with technology, he discovered a passion for building tech that makes a difference – Today, Reuben works as an independent Consultant, get in touch. ✌︎',
+    'Bhanu Prasanna is a tech-savvy, research-driven, and award-winning Computer Science student with a passion for exploring emerging technologies and making a positive impact in the world.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://reubence.com',

@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 
-const Education = ({ title, company, location, range, url, text1, text2 }) => {
+const Education = ({ title, company, location, range, url, text1, text2, text3, text4, text5 }) => {
   return (
     <div className="my-3">
       <div className="flex flex-row text-xl">
@@ -29,13 +29,27 @@ const Education = ({ title, company, location, range, url, text1, text2 }) => {
             </div>
             <div className="text-gray-500 dark:text-gray-400">{text2}</div>
           </div>
-          {/* <div className="items-top flex flex-row">
+          <div className="flex flex-row">
             <div className="text-primary-color-500 dark:text-primary-color-dark-500 mr-2 text-lg">
               {' '}
               &#8227;
             </div>
             <div className="text-gray-500 dark:text-gray-400">{text3}</div>
-          </div> */}
+          </div>
+          <div className="flex flex-row">
+            <div className="text-primary-color-500 dark:text-primary-color-dark-500 mr-2 text-lg">
+              {' '}
+              &#8227;
+            </div>
+            <div className="text-gray-500 dark:text-gray-400">{text4}</div>
+          </div>
+          <div className="flex flex-row">
+            <div className="text-primary-color-500 dark:text-primary-color-dark-500 mr-2 text-lg">
+              {' '}
+              &#8227;
+            </div>
+            <div className="text-gray-500 dark:text-gray-400">{text5}</div>
+          </div>
         </div>
       </div>
       <div className="justify-center text-center text-2xl font-medium text-gray-200  dark:text-gray-600">

@@ -1,0 +1,61 @@
+---
+title: Toast
+date: '2023-01-01'
+tags: [Web Development]
+draft: false
+summary: A simple reusable notification toasts
+images: []
+layout: PostSimple
+---
+
+```js showLineNumbers
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <>
+      <ToastContainer />
+      <Component {...pageProps} />
+    </>
+  )
+}
+```
+
+```js showLineNumbers
+const logout = async () => {
+  await firebase.auth().signOut()
+  dispatch({
+    type: 'LOGOUT',
+  })
+  toast.success('🚀 Logged out successfully!')
+  router.push('/login')
+}
+```
+
+## Usage
+
+1. Install react-toastify npm package
+
+```bash showLineNumbers
+npm i react-toastify
+```
+
+2. Import in the root directory
+
+Import two helper functions in the root directory
+
+```js showLineNumbers
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+```
+
+This import gives access to the toast object where all the methods live. Since it is in the root directory, it is accessible over all the pages in your app.
+
+3. Use toast in your app
+
+Use the below syntax to get access to the toast component and use it accordingly.
+
+```js showLineNumbers
+toast.success('🚀 Logged out successfully!')
+```

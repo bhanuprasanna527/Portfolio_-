@@ -6,7 +6,7 @@ import { GetStaticProps, InferGetStaticPropsType } from 'next'
 import { ComponentProps } from 'react'
 import SnippetsLayout from '../layouts/SnippetsLayout'
 
-export const POSTS_PER_PAGE = 5
+export const POSTS_PER_PAGE = 25
 
 export const getStaticProps: GetStaticProps<{
   posts: ComponentProps<typeof ListLayout>['posts']
