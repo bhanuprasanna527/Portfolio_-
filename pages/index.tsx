@@ -39,7 +39,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             </span>
             <h1 className="pt-2 text-4xl font-bold leading-9 tracking-tight text-background-color dark:text-gray-100 sm:text-5xl sm:leading-10 md:text-6xl md:leading-snug">
               Bhanu
-              <span className="relative inset-y-8 ml-2 text-[#ea580c] inline-block -rotate-12 font-arrow text-primary-500 sm:inset-y-14">
+              <span className="relative inset-y-8 ml-2 inline-block -rotate-12 font-arrow text-[#ea580c] text-primary-500 sm:inset-y-14">
                 ^
               </span>
               Prasanna
@@ -87,7 +87,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
         <ul className="flex flex-col gap-10 dark:border-gray-700 md:flex-row">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter, index) => {
-            const { slug, date, title, summary, tags, readTime } = frontMatter
+            const { slug, title, readTime } = frontMatter
             return (
               <Link
                 href={`/blog/${slug}`}

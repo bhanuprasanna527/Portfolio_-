@@ -21,7 +21,7 @@ export default function Footer() {
             </div>
             <div>{` • `}</div>
             <Link
-              href=""
+              href="/"
               className="hover:text-primary-500 hover:underline hover:underline-offset-4"
             >
               Bhanu Prasanna Portfolio
