@@ -2,7 +2,7 @@ import { getAllFilesFrontMatter } from '@/lib/mdx'
 import siteMetadata from '@/data/siteMetadata'
 import ListLayout from '@/layouts/ListLayout'
 import { PageSEO } from '@/components/SEO'
-import { GetStaticProps, InferGetStaticPropsType } from 'next'
+import { GetStaticProps } from 'next'
 import { ComponentProps } from 'react'
 
 export const POSTS_PER_PAGE = 25
@@ -22,11 +22,7 @@ export const getStaticProps: GetStaticProps<{
   return { props: { initialDisplayPosts, posts, pagination } }
 }
 
-export default function Blog({
-  posts,
-  initialDisplayPosts,
-  pagination,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+export default function Blog() {
   return (
     <>
       <PageSEO title={`Snippets - ${siteMetadata.author}`} description={siteMetadata.description} />

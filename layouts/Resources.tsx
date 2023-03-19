@@ -1,5 +1,5 @@
 import Link from '@/components/Link'
-import Tag from '@/components/Tag'
+// import Tag from '@/components/Tag'
 import { ComponentProps, useState } from 'react'
 import Pagination from '@/components/Pagination'
 import formatDate from '@/lib/utils/formatDate'
@@ -11,13 +11,8 @@ interface Props {
   pagination?: ComponentProps<typeof Pagination>
 }
 
-export default function SnippetsLayout({
-  posts,
-  title,
-  initialDisplayPosts = [],
-  pagination,
-}: Props) {
-  const [searchValue, setSearchValue] = useState('')
+export default function SnippetsLayout({ posts, initialDisplayPosts = [], pagination }: Props) {
+  const [searchValue] = useState('')
   const filteredBlogPosts = posts.filter((frontMatter) => {
     const searchContent = frontMatter.title + frontMatter.summary + frontMatter.tags.join(' ')
     return searchContent.toLowerCase().includes(searchValue.toLowerCase())
@@ -33,7 +28,7 @@ export default function SnippetsLayout({
         <div className="dark:border-gray-700">
           {!filteredBlogPosts.length && 'No posts found.'}
           {displayPosts.map((frontMatter, index) => {
-            const { slug, date, title, summary, tags } = frontMatter
+            const { slug, date, title } = frontMatter
             return (
               <Link href={`/snippets/${slug}`} key={slug}>
                 <a className="w-full" aria-label={title}>
