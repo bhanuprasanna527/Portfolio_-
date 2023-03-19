@@ -45,7 +45,7 @@ export default function Blog() {
           Utilities
         </h1>
 
-        <div className="grid grid-cols-3 gap-4">
+        <div className="h-90 w-100 grid grid-flow-col space-x-4">
           <div>
             <a
               href="https://www.colorsandfonts.com/"
