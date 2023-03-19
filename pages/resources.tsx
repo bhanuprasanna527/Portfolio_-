@@ -35,9 +35,9 @@ export default function Blog({
         <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-background-color dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
           Resources
         </h1>
-        <p class="mb-4 text-gray-600 dark:text-gray-400">
+        <p className="mb-4 text-gray-600 dark:text-gray-400">
           Helpful{' '}
-          <span class="rounded-md border bg-gray-100 px-1 py-0.5 tracking-tight dark:bg-gray-700 dark:text-gray-300">
+          <span className="rounded-md border bg-gray-100 px-1 py-0.5 tracking-tight dark:bg-gray-700 dark:text-gray-300">
             websites
           </span>{' '}
           that I've been using which have helped me in developing applications and much more. 🔥
@@ -45,20 +45,20 @@ export default function Blog({
       </div>
 
       <div className="space-y-2 pt-6 pb-8 md:space-y-5">
-        <h1 class="mb-4 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
+        <h1 className="mb-4 text-3xl font-bold tracking-tight text-black dark:text-white md:text-5xl">
           Utilities
         </h1>
 
-        <div class="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-3 gap-4">
           <div>
             <a
               href="https://www.colorsandfonts.com/"
-              class="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
+              className="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
             >
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Colors and Fonts
               </h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-gray-700 dark:text-gray-400">
                 Great fonts and color palette inspirations
               </p>
             </a>
@@ -66,12 +66,12 @@ export default function Blog({
           <div>
             <a
               href="https://getcssscan.com/css-checkboxes-examples"
-              class="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
+              className="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
             >
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Checkboxes Inspiration
               </h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-gray-700 dark:text-gray-400">
                 Click to copy checkbox styles
               </p>
             </a>
@@ -79,12 +79,12 @@ export default function Blog({
           <div>
             <a
               href="https://getcssscan.com/css-buttons-examples"
-              class="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
+              className="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
             >
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                 Buttons Inspiration
               </h5>
-              <p class="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-gray-700 dark:text-gray-400">
                 Click to copy button styles
               </p>
             </a>
@@ -93,12 +93,12 @@ export default function Blog({
         <div>
           <a
             href="https://react-icons.github.io/react-icons/"
-            class="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
+            className="block max-w-sm rounded-lg border border-gray-200 bg-white p-6 shadow hover:bg-gray-100 dark:border-gray-700 dark:bg-background-color dark:hover:bg-gray-700"
           >
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               React Icons
             </h5>
-            <p class="font-normal text-gray-700 dark:text-gray-400">
+            <p className="font-normal text-gray-700 dark:text-gray-400">
               Great icon packs from many websites.
             </p>
           </a>
