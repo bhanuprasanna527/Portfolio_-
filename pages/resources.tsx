@@ -141,7 +141,7 @@ export default function Snippets() {
       <h2 className="mt-8 border-b-4 border-orange-300 text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
         User Interface
       </h2>
-      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-3">
         {/* https://storyset.com/ */}
         <ResourcesCard
           title="Story Set"
@@ -211,7 +211,7 @@ export default function Snippets() {
       <h2 className="mt-8 border-b-4 border-orange-300 text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
         Everyday use
       </h2>
-      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-3">
         {/* https://css.gg/ */}
         <ResourcesCard
           title="Free Icons (700+)"
@@ -307,7 +307,7 @@ export default function Snippets() {
         Free Themes
       </h2>
       {/* https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit */}
-      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-3">
         <ResourcesCard
           title="Free Pixel Theme"
           link="https://themesberg.com/product/ui-kit/pixel-free-bootstrap-5-ui-kit"
@@ -337,7 +337,7 @@ export default function Snippets() {
       <h2 className="mt-8 border-b-4 border-orange-300 text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
         Productivity
       </h2>
-      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-2">
+      <div className="my-2 mt-4 grid w-full grid-cols-1 gap-4 sm:grid-cols-3">
         <ResourcesCard
           title="LinkedIn analysis"
           link="https://resumeworded.com"
