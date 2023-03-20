@@ -1,4 +1,4 @@
-const NewsletterForm = ({ title = 'Currently doing the following tasks:' }) => {
+const NewsletterForm = ({ title = 'Upcoming Tasks:' }) => {
   return (
     <div className="group relative">
       <div className="animate-tilt absolute -inset-px animate-pulse rounded-2xl bg-gradient-to-r from-primary-500 via-[#3B82F6] to-[#9333EA] blur-md transition duration-1000 group-hover:-inset-1 group-hover:animate-none group-hover:opacity-100 group-hover:duration-1000"></div>
