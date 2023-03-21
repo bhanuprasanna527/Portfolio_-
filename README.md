@@ -1,5 +1,7 @@
 
-<center>![image](https://user-images.githubusercontent.com/79924017/226528214-49c330f0-927e-448c-8c28-b39ef858cdd3.png)</center>
+<p align="center">
+  <img src="https://github.com/bhanuprasanna527/Portfolio_-/blob/master/public/static/favicons/apple-touch-icon.png?raw=true" />
+</p>
 
 # UPDATE 🚀
 
