@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://github.com/bhanuprasanna527/Portfolio_-/blob/master/public/static/favicons/apple-touch-icon.png?raw=true" />
+  <a href="kbpb.netlify.app"><img src="https://github.com/bhanuprasanna527/Portfolio_-/blob/master/public/static/favicons/apple-touch-icon.png?raw=true" /></a>
 </p>
 
 # UPDATE 🚀
