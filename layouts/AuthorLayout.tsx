@@ -7,6 +7,8 @@ import Experience from '@/components/Experience'
 import experienceData from '@/data/experienceData'
 import Education from '@/components/Education'
 import educationData from '@/data/educationData'
+import Publications from '@/components/Publications'
+import publicationData from '@/data/publicationData'
 
 interface Props {
   children: ReactNode
@@ -46,6 +48,23 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
           </div>
           <div className="prose prose-lg max-w-none pt-8 pb-8 dark:prose-dark sm:prose-xl xl:col-span-2">
             {children}
+          </div>
+        </div>
+        <div className="mt-10">
+          <div className="space-y-2 pt-6 pb-8 md:space-y-5">
+            <h1 className="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+              Publications
+            </h1>
+          </div>
+          <div className="max-w-none pt-8 pb-8 xl:col-span-2">
+            {publicationData.map((d) => (
+              <Publications
+                title={d.title}
+                company={d.company}
+                publishedOn={d.publishedOn}
+                url={d.url}
+              />
+            ))}
           </div>
         </div>
         <div className="mt-10">
