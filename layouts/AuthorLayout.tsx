@@ -59,6 +59,7 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
             {publicationData.map((d) => (
               <Publications
+                key={d.title}
                 title={d.title}
                 company={d.company}
                 publishedOn={d.publishedOn}
