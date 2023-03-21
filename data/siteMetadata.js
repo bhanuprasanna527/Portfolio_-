@@ -17,6 +17,7 @@ const siteMetadata = {
   twitter: 'https://twitter.com/bhanu527',
   facebook: 'https://www.facebook.com/bhanuprasanna527',
   linkedin: 'https://www.linkedin.com/in/bhanuprasanna527/',
+  scholar: 'https://scholar.google.com/citations?user=Z9gKj9AAAAAJ&hl=en',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the

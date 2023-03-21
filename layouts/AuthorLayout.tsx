@@ -9,6 +9,7 @@ import Education from '@/components/Education'
 import educationData from '@/data/educationData'
 import Publications from '@/components/Publications'
 import publicationData from '@/data/publicationData'
+import siteMetadata from '@/data/siteMetadata'
 
 interface Props {
   children: ReactNode
@@ -16,7 +17,8 @@ interface Props {
 }
 
 export default function AuthorLayout({ children, frontMatter }: Props) {
-  const { name, avatar, occupation, company, email, twitter, linkedin, github } = frontMatter
+  const { name, avatar, occupation, company, email, twitter, linkedin, github, scholar } =
+    frontMatter
 
   return (
     <>
@@ -44,6 +46,7 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
               <SocialIcon kind="github" href={github} />
               <SocialIcon kind="linkedin" href={linkedin} />
               <SocialIcon kind="twitter" href={twitter} />
+              <SocialIcon kind="scholar" href={siteMetadata.scholar} />
             </div>
           </div>
           <div className="prose prose-lg max-w-none pt-8 pb-8 dark:prose-dark sm:prose-xl xl:col-span-2">
@@ -58,13 +61,7 @@ export default function AuthorLayout({ children, frontMatter }: Props) {
           </div>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
             {publicationData.map((d) => (
-              <Publications
-                key={d.title}
-                title={d.title}
-                company={d.company}
-                publishedOn={d.publishedOn}
-                url={d.url}
-              />
+              <Publications key={d.title} title={d.title} company={d.company} url={d.url} />
             ))}
           </div>
         </div>

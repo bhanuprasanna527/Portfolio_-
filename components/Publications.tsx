@@ -1,6 +1,6 @@
 import Link from '@/components/Link'
 
-const Experience = ({ title, company, publishedOn, url }) => {
+const Experience = ({ title, company, url }) => {
   return (
     <div className="my-3">
       <div className="flex flex-row text-xl">
@@ -11,9 +11,6 @@ const Experience = ({ title, company, publishedOn, url }) => {
             {company}
           </Link>
         </span>
-      </div>
-      <div>
-        <div className="p-1 font-mono text-sm text-gray-400 dark:text-gray-600">{publishedOn}</div>
       </div>
       <div className="justify-center text-center text-2xl font-medium text-gray-200  dark:text-gray-600">
         &#126;&#126;&#126;
