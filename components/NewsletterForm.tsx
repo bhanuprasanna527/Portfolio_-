@@ -14,7 +14,7 @@ const NewsletterForm = ({ title = 'Upcoming Tasks:' }) => {
           2023 Codeasthra Hackathon on <b>2nd April</b>.
         </li>
       </div>
-      <div className="mb-3 flex space-x-4">
+      <div className="mb-3 flex content-center space-x-4">
         <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
         <SocialIcon kind="github" href={siteMetadata.github} size={6} />
         <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
