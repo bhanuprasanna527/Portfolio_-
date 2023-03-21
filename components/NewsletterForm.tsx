@@ -13,15 +13,15 @@ const NewsletterForm = ({ title = 'Upcoming Tasks:' }) => {
         <li>
           2023 Codeasthra Hackathon on <b>2nd April</b>.
         </li>
-      </div>
-      <div className="mb-3 flex content-center space-x-4">
-        <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
-        <SocialIcon kind="github" href={siteMetadata.github} size={6} />
-        <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
-        {/* <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} /> */}
-        <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
-        <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
-        <SocialIcon kind="scholar" href={siteMetadata.scholar} size={6} />
+        <div className="mb-3 flex content-center space-x-4">
+          <SocialIcon kind="mail" href={`mailto:${siteMetadata.email}`} size={6} />
+          <SocialIcon kind="github" href={siteMetadata.github} size={6} />
+          <SocialIcon kind="facebook" href={siteMetadata.facebook} size={6} />
+          {/* <SocialIcon kind="youtube" href={siteMetadata.youtube} size={6} /> */}
+          <SocialIcon kind="linkedin" href={siteMetadata.linkedin} size={6} />
+          <SocialIcon kind="twitter" href={siteMetadata.twitter} size={6} />
+          <SocialIcon kind="scholar" href={siteMetadata.scholar} size={6} />
+        </div>
       </div>
     </div>
   )
