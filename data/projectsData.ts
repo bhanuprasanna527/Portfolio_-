@@ -1,24 +1,31 @@
 const projectsData = [
   {
-    title: 'Branding',
+    title: 'kbp_nse',
     description:
-      'This project is a fully responsive & complex marketing website with smooth animations built with Next.js & Framer-Motion.',
-    imgSrc: '/static/images/projects/Branding.png',
-    href: 'https://github.com/bhanuprasanna527',
+      'Introducing kbp_nse, a Python library that provides easy access to stock data from National Stock Exchange (NSE). With kbp_nse, the number of features to work with increase from traditional Open, Close, High, Low, Volume for developing even more profound Analysis on Financial Data. Get started today with kbp_nse install the library using pip.',
+    imgSrc: '/static/images/projects/stock.jpeg',
+    href: 'https://github.com/bhanuprasanna527/kbp_nse',
   },
   {
-    title: 'Fin-Tech',
+    title: 'Flash Chat App',
     description:
-      'An enterprise resource planning software to manage daily processes including Accounting, Invoice Generation & Tax Filing. It was built to be fully responsive using Next.js & Supabase and aims to automate various processes and enhance productivity of employeess.',
-    imgSrc: '/static/images/projects/FinTech.png',
-    href: 'https://github.com/bhanuprasanna527',
+      'Introducing Flash Chat, the ultimate messaging app to connect with others in a flash! Developed using Flutter and Firebase, the app developed ensures secure messaging by using cryptography algorithms. Say bye to old messaging and hello to the world of exciting chats with Flash Chat!',
+    imgSrc: '/static/images/projects/flashchat.png',
+    href: 'https://github.com/bhanuprasanna527/Flash-Chat-App',
   },
   {
-    title: 'Blockchain',
+    title: 'Face Emotion Recognition',
     description:
-      'A single page website that mints NFTs for the user on the largest marketplace (OpenSea) and is fully responsive. Built using Next.js, Framer-Motion and Supabase.',
-    imgSrc: '/static/images/projects/Blockchain.png',
-    href: 'https://github.com/bhanuprasanna527',
+      'Developed a Face emotion recognition, that is built using MobileNetV2 model and FER 2013 dataset, achieving an impressive accuracy of 93.46%.',
+    imgSrc: '/static/images/projects/fer2013.png',
+    href: '#',
+  },
+  {
+    title: 'Detecting Objects from Aerial using Mask RCNN',
+    description:
+      "Developed a project for Detecting Objects from Aerial using Mask RCNN. By analyzing aerial imagery, we can accurately identify objects in real-time. I plan to incorporate segmentation in the future, which will further enhance the project's capabilities.",
+    imgSrc: '/static/images/projects/aerial.png',
+    href: '#',
   },
 ]
 
