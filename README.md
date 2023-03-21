@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/79924017/226527447-8fbe98a9-e0cf-4a6c-a391-6ee38c9eced1.png)
+<center>![image](https://user-images.githubusercontent.com/79924017/226528214-49c330f0-927e-448c-8c28-b39ef858cdd3.png)</center>
 
 # UPDATE 🚀
 
