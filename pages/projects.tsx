@@ -2,7 +2,7 @@ import siteMetadata from '@/data/siteMetadata'
 import projectsData from '@/data/projectsData'
 import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
-import Link from 'next/link'
+// import Link from 'next/link'
 
 export default function Projects() {
   return (
