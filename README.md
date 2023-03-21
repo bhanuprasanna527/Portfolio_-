@@ -1,6 +1,5 @@
-<p align="center">
+
 ![image](https://user-images.githubusercontent.com/79924017/226527447-8fbe98a9-e0cf-4a6c-a391-6ee38c9eced1.png)
-  </p>
 
 # UPDATE 🚀
 
