@@ -19,8 +19,7 @@ export default function Snippets() {
           <span className="rounded-md border bg-gray-100 px-1 py-0.5 tracking-tight dark:bg-gray-700 dark:text-gray-300">
             websites
           </span>{' '}
-          that I've been using for years that have helped me in developing applications and much
-          more. 🔥
+          that have helped me in developing applications and much more. 🔥
         </p>
 
         <h2 className="mt-8 border-b-4 border-orange-300 text-xl font-bold tracking-tight text-black dark:text-white md:text-2xl">
