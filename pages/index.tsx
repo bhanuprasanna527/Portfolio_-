@@ -45,9 +45,11 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
               Prasanna
             </h1>
             <p className="text-black dark:text-white sm:pr-6 sm:text-lg sm:leading-8">
-              Driven by a passion for utilizing AI to revolutionize the finance and healthcare
-              industries, I have made my mark as a prolific researcher with two published papers at
-              IEEE international conferences. Have a good read!
+              I am a passionate researcher and learner with a focus on AI and ML. My main area of
+              interests are in AI, ML, and Data Science for Finance and Healthcare research, driven
+              by their potential to transform industries and improve outcomes. I invite you to
+              explore my portfolio to learn more about my research, Projects, experience, and
+              skills. <b>Have a good read!</b>
               <span className="waving-hand text-2xl">👋🏻</span>
             </p>
             <p className="leading-7 text-gray-500 underline underline-offset-4 sm:pr-6 sm:text-lg">
